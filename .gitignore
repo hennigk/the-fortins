@@ -2,3 +2,5 @@
 /css/*
 /bower_components/*
 /node_modules/*
+/js/app-bundle.js
+package1.json
