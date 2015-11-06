@@ -1,31 +1,21 @@
 {
-  "name": "the-fortins",
-  "version": "1.0.0",
-  "description": "",
-  "main": "Gruntfile.js",
-  "dependencies": {
-    "backbone": "^1.2.3",
-    "grunt": "^0.4.5",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-sass": "^1.0.0",
+  "name": "foundation-libsass-template",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zurb/foundation-libsass-template.git"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-sass": "1.0.0",
     "grunt-webpack": "^1.0.11",
-    "node-sass": "^3.3.3",
-    "underscore": "^1.8.3",
+    "node-sass": "3.3.3",
     "webpack": "^1.12.2",
     "webpack-dev-server": "^1.12.1"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "node ."
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hennigk/the-fortins.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hennigk/the-fortins/issues"
-  },
-  "homepage": "https://github.com/hennigk/the-fortins#readme"
+  "dependencies": {
+    "backbone": "^1.2.3",
+    "underscore": "^1.8.3"
+  }
 }
