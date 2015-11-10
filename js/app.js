@@ -22,3 +22,5 @@ $("#closeModal").on('click', function(){
 });
 
 
+var imgHeight = $('.gallery .th').width();
+$('.gallery .th').css({'height':imgHeight+'px'});

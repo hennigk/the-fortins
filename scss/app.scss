@@ -62,6 +62,7 @@ header {
     border-style: solid;
     border-width: thin;
     border-color: rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
     p {
       text-align: justify;
       color: $body-color;
@@ -84,10 +85,19 @@ header {
     margin-bottom: 2rem;
     .th {
       width: 100%;
-      max-height: 200px;
+      max-width: 400px;
+      max-height: 180px;
       object-fit: cover;
       object-position: 50% 70%;
       margin: .5rem 0;
+    }
+    .gallery{
+      display: inline-block;
+      width: 29%;
+      .th{
+        width: 100%;
+        object-fit: cover;
+      }
     }
   }
   .proposal{
@@ -177,6 +187,15 @@ header {
     height: 150px;
     width: 100%;
     object-fit: cover;
+    object-position: 50% 0%;
+  }
+  #em{
+    object-position: 0% 50%;
+  }
+  #kat{
+    object-position: 50% 30%;
+  }
+  #daniel{
     object-position: 50% 0%;
   }
   figcaption {
