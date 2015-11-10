@@ -83,9 +83,11 @@ header {
   }
   .ourStory {
     margin-bottom: 2rem;
+    li {
+      width: 100%;
+    }
     .th {
       width: 100%;
-      max-width: 400px;
       max-height: 180px;
       object-fit: cover;
       object-position: 50% 70%;
@@ -93,11 +95,18 @@ header {
     }
     .gallery{
       display: inline-block;
-      width: 29%;
+      width: 31.2%;
+      margin: 0 1.5%;
       .th{
         width: 100%;
         object-fit: cover;
       }
+    }
+    .firstImg{
+        margin-left: 0;
+      }
+    .lastImg{
+        margin-right: 0;
     }
   }
   .proposal{
