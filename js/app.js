@@ -18,7 +18,7 @@ $('#contactForm').on('valid.fndtn.abide', function() {
 });
 
 $("#closeModal").on('click', function(){
-    $("form div").removeClass("error");
+    $("form").removeClass("error");
 });
 
 
