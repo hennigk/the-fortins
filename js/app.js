@@ -1,4 +1,4 @@
-$(document).foundation();
+$(function(){ $(document).foundation(); });
 
 $('#contactForm').on('valid.fndtn.abide', function() {
     var name = document.getElementById("name").value;

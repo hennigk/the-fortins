@@ -82,7 +82,9 @@ $z-index-base: 1005;
     #{$default-float}: 0;
 
     @media #{$small-only} {
-      min-height:100vh;
+      // min-height:50vh;
+      width: 80%;
+      margin: 10%;
     }
 
     // Make sure rows don't have a min-width on them
