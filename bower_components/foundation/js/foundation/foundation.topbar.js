@@ -14,7 +14,7 @@
       back_text : 'Back',
       mobile_show_parent_link : true,
       is_hover : true,
-      scrolltop : true, // jump to top when sticky nav menu toggle is clicked
+      // scrolltop : true, // jump to top when sticky nav menu toggle is clicked
       sticky_on : 'all',
       dropdown_autoclose: true
     },
