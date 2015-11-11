@@ -3,17 +3,17 @@ Error: File to import not found or unreadable: foundation/functions.
         on line 58 of /home/ubuntu/workspace/scss/_settings.scss
         from line 1 of /home/ubuntu/workspace/scss/app.scss
 
-53: .story {
-54:   margin-bottom: 2rem;
-55:   h2 {
-56:     text-align: center;
-57:     font-family: $main-header-font;
-58:     color: $header-color;
-59:     font-weight: 700;
-60:   }
-61:   .storyInfo {
-62:     border-style: solid;
-63:     border-width: thin;
+53:   h2 {
+54:     text-align: center;
+55:     font-family: $main-header-font;
+56:     color: $header-color;
+57:     font-weight: 700;
+58:   }
+59:   .storyInfo {
+60:     border-style: solid;
+61:     border-width: thin;
+62:     border-color: rgba(0, 0, 0, 0.2);
+63:     margin-bottom: 1rem;
 
 Backtrace:
 /home/ubuntu/workspace/scss/_settings.scss:58
@@ -75,4 +75,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: foundation/functions.\A         on line 58 of /home/ubuntu/workspace/scss/_settings.scss\A         from line 1 of /home/ubuntu/workspace/scss/app.scss\A \A 53: .story {\A 54:   margin-bottom: 2rem;\A 55:   h2 {\A 56:     text-align: center;\A 57:     font-family: $main-header-font;\A 58:     color: $header-color;\A 59:     font-weight: 700;\A 60:   }\A 61:   .storyInfo {\A 62:     border-style: solid;\A 63:     border-width: thin;"; }
+  content: "Error: File to import not found or unreadable: foundation/functions.\A         on line 58 of /home/ubuntu/workspace/scss/_settings.scss\A         from line 1 of /home/ubuntu/workspace/scss/app.scss\A \A 53:   h2 {\A 54:     text-align: center;\A 55:     font-family: $main-header-font;\A 56:     color: $header-color;\A 57:     font-weight: 700;\A 58:   }\A 59:   .storyInfo {\A 60:     border-style: solid;\A 61:     border-width: thin;\A 62:     border-color: rgba(0, 0, 0, 0.2);\A 63:     margin-bottom: 1rem;"; }
