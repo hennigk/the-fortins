@@ -1,9 +1,8 @@
-@import "settings";
+// @import "settings";
 @import "foundation";
 $header-color: rgba(0, 0, 0, 0.87) !default;
 $body-color: rgba(0, 0, 0, 0.56) !default;
-$main-header-font: 'Arvo',
-serif;
+$main-header-font: 'Arvo', serif;
 // font-family: 'Raleway', sans-serif;
 // font-family: 'Arvo', serif;
 // font-family: 'Dancing Script', cursive;
@@ -20,7 +19,7 @@ header {
   background-image: url("../images/header.jpg");
   background-size: cover;
   width: 100%;
-  height: 400px;
+  height: 450px;
   background-position: center top;
   h1 {
     font-family: 'Great Vibes', cursive;

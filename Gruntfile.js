@@ -3,9 +3,9 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
 
     sass: {
-      options: {
-        includePaths: ['bower_components/foundation/scss']
-      },
+      // options: {
+      //   includePaths: ['bower_components/foundation/scss']
+      // },
       dist: {
         options: {
           outputStyle: 'compressed',
@@ -34,7 +34,7 @@ module.exports = function(grunt) {
       },
 
       sass: {
-        files: ['scss/**/*.scss', 'bower_components/foundation/scss/foundation/components/**/*.scss'],
+        files: 'scss/**/*.scss',
         tasks: ['sass']
       },
       webpack: {
