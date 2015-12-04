@@ -1,10 +1,10 @@
-$(function(){ $(document).foundation(); });
+$(document).foundation();
 
 $('#contactForm').on('valid.fndtn.abide', function() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
     var message = document.getElementById("message").value;
-    
+    console.log("hello")
     $.ajax({
     url: "//formspree.io/kayla.hennig@gmail.com", 
     method: "POST",
